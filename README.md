@@ -125,7 +125,7 @@ beyond-fullstack-python/
 │   ├── backend/               # Django, FastAPI, REST, GraphQL
 │   ├── databases/             # PostgreSQL, MongoDB, Redis
 │   ├── hosting/               # Deploys on VPS, PaaS, Docker
-│   └── projects/              # Practical web projects (original ideas)
+│   └── projects/              # Practical web projects
 │
 ├── python-dev/                # Python development section
 │   ├── scripting/             # .py scripts, automation
@@ -664,7 +664,7 @@ Prebuilt small apps for learners.
 12. 🏗️ Production patterns (Gunicorn/Uvicorn, Nginx/Traefik, CI/CD, platforms)
 13. 📊 Observability, logging, metrics, security essentials
 14. ❓ Short FAQ: GraphQL vs REST quick guidance
-15. 💡 Projects — original, useful QoL apps with stacks + how-to links
+15. 💡 Projects:  useful QoL apps with stacks + how-to links
 
 ---
 
@@ -814,7 +814,7 @@ Containerize for parity with prod. Compose is the easiest multi-service local se
 
 ---
 
-## 15) 💡 **Projects — original QoL web apps** (not "another todo app") 🚀
+## 15) 💡 **Projects: QoL web apps** (not "another todo app") 🚀
 
 Each idea includes scope, suggested minimal tech stack, and links to docs/examples so you can actually build them.
 
@@ -900,7 +900,7 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 12. 🚀 Deployment & containerizing (Docker + Python patterns)
 13. 🔒 Security & secrets (envvars, .env, keyring patterns)
 14. 📚 Recommended books / tutorials
-15. 💡 **Projects: original, small QoL tools** (no todo apps)
+15. 💡 **Projects: small QoL tools** (no todo apps)
 
 ---
 
@@ -1113,7 +1113,7 @@ Useful tools/patterns:
 
 ---
 
-## 15) 💡 **Projects — original, practical QoL tools** 🚀
+## 15) 💡 **Projects: practical QoL tools** 🚀
 
 No todo apps — these are hands-on, tiny tools that solve real small pain points for average programmers. Each idea includes scope, recommended stack, and links to libraries/docs so you can build them.
 
