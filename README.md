@@ -1109,9 +1109,13 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project A — **🔄 Dependency Update Sandbox & Smoke-Tester** 🧪
 
 **Problem it solves:** Updating dependencies may break your app. Manually testing each update is slow and risky.
+
 **What it does:** runs dependency updates in isolated ephemeral virtualenvs/containers, installs the new versions, runs a lightweight smoke test suite (configurable commands), and reports which package(s) likely caused failures.Optionally create PRs with safe bump suggestions.
+
 **Why useful:** saves an hour of manual dependency triage every week.
+
 **Minimal stack & libraries:** Poetry (or pip + constraints files) to generate isolated envs, `subprocess` + Docker SDK or `pipx` for isolated installs, `pytest` for smoke tests, GitHub Actions for automation.
+
 **Links:** Poetry docs (manage deps) — Pytest docs (run tests) — Docker SDK for Python for containerized sandboxes.
 
 ---
@@ -1119,9 +1123,13 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project B — **Smart Snippet Inserter for Editors & CLIs** 📝
 
 **Problem it solves:** Repetitive boilerplate (license headers, logging setup, test templates) inserted manually across repos. 🔄  
+
 **What it does:** A CLI + small HTTP service accessible over LAN that stores parametrized snippets (templates) and inserts them into files using contextual placeholders (filename, author, date, package name). Can be invoked from editor keybind or `pre-commit` hooks. ⚡  
+
 **Why useful:** saves repeated copy/paste and enforces consistent project boilerplate. 💪  
+
 **Minimal stack & libs:** Typer for CLI, Jinja2 for templating, filesystem ops via `pathlib`, optional tiny FastAPI server for networked snippet management. Use `pipx` for deployment on dev machines. 🛠️  
+
 **Links:** Typer docs — Jinja2 docs (templating; search "jinja2 docs") — pathlib/subprocess for file ops.
 
 ---
@@ -1129,9 +1137,13 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project C — **Local Clipboard + OCR Collector (LAN-accessible)** 📋✨
 
 **Problem it solves:** Moving small screenshots / snippets between devices and turning screenshots into searchable text is tedious. 📱➡️💻  
+
 **What it does:** Runs a small daemon that (optionally) captures clipboard text and accepts screenshots (or watches a folder), runs OCR locally (Tesseract) to extract text, tags snippets, and serves a minimal web UI with full-text search and copy-to-clipboard. Optionally supports short-lived sharing links on LAN. 🔍  
+
 **Why useful:** quick transfer of small bits of info between devices + searchable screenshot archive. 🚀  
+
 **Minimal stack & libs:** Python `watchdog` (file watching), `pytesseract` (OCR wrapper), FastAPI for UI/API, SQLite or tiny search (Whoosh) for full-text indexing. `pyperclip` for clipboard interactions. 📊  
+
 **Links:** pytesseract (search docs), FastAPI (API & websockets).
 
 ---
@@ -1139,8 +1151,11 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project D — **One-click Local HTTPS (mkcert) & Hosts Manager** 🔒🌐
 
 **Problem it solves:** Local dev with HTTPS + custom hostnames is fiddly (mkcert + /etc/hosts + docker networks). 🤯  
+
 **What it does:** GUI + CLI that finds local projects (docker-compose / local ports), generates mkcert certs for chosen hostnames, writes to a dev hosts file (or manages DNS via dnsmasq), and configures a local reverse proxy (traefik/nginx) to serve TLS—one button to enable HTTPS for an app. Optionally roll certs into containers automatically. 🎯  
+
 **Why useful:** makes local HTTPS painless for frontend engineers and mobile debugging. 📱  
+
 **Stack & libs:** FastAPI backend, Docker SDK to discover stacks, mkcert for cert generation, HTMX/Alpine + Tailwind for UI. mkcert docs.
 
 ---
@@ -1148,9 +1163,13 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project E — **Commit Message Linter & Augmentor** 📝✅
 
 **Problem it solves:** Poor commit messages and inconsistent changelogs. 😵
+
 **What it does:** a git hook service that checks commit messages for format, suggests fixes (imperative mood, scope), offers automated conventional-changelog snippets, and can auto-generate a short PR description based on diff stats. Offers both CLI and GitHub Action integration. 🤖  
+
 **Why useful:** better history & changelog automation across teams. 👥  
+
 **Stack & libs:** GitPython or subprocess to call `git`, a small local CLI (Typer) and optional GitHub Action glue. Add `pre-commit` integration. 🔗  
+
 **Links:** pre-commit framework (search pre-commit), GitHub Actions (CI).
 
 ---
@@ -1158,7 +1177,9 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 ### Project F — **Quick Exporter — CSV/Excel Cleaner for Logs** 📊🧹
 
 **Problem it solves:** Extracting and cleaning named columns from messy log files (syslog, custom app logs) to CSV/Excel for quick analysis. 📈  
+
 **What it does:** A CLI that accepts log patterns, extracts fields with regex templates, normalizes timestamps/timezones, deduplicates, and writes clean CSV/Excel reports with basic summary stats and small plots. Saves time when you need ad-hoc analysis without building ETL. ⚡  
+
 **Stack & libs:** `pandas` for cleaning, `openpyxl` or `xlsxwriter` for Excel exports, `click/typer` CLI, and `matplotlib`/`seaborn` for quick charts. pandas docs.
 
 ---
