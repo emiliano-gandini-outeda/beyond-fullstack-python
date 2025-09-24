@@ -359,7 +359,7 @@ Prebuilt small apps for learners.
 1. 🖥️ Computer science fundamentals (what is a program, compiler, runtime, OS)
 2. ⚡ Algorithms & data structures (big-O, core structures, learning resources)
 3. 🐧 Operating systems & Linux (what is Linux, distros, install guides, file system, permissions)
-4. 💻 Shells & shell scripting (`.sh`, bash, zsh, fish — how they work)
+4. 💻 Shells & shell scripting (`.sh`, bash, zsh, fish : how they work)
 5. 📦 Package managers & environments (apt, pacman, pip, poetry, system vs language)
 6. 🔨 Build systems & Makefiles
 7. 🔄 Version control & CI (git, GitHub Actions)
@@ -374,7 +374,7 @@ Prebuilt small apps for learners.
 
 ---
 
-## 1) 🖥️ Computer science fundamentals — what is a program, compiler, interpreter, runtime, OS
+## 1) 🖥️ Computer science fundamentals : what is a program, compiler, interpreter, runtime, OS
 
 **Why:** You must understand the layers: source code → compiler/interpreter → machine code → kernel/OS → hardware.
 
@@ -383,12 +383,12 @@ Prebuilt small apps for learners.
 * Intro to "what a compiler is" & classic textbook (Dragon Book).
   Links:
   * *Compilers: Principles, Techniques, and Tools* (the "Dragon Book"). [https://suif.stanford.edu/dragonbook/](https://suif.stanford.edu/dragonbook/)
-  * *Crafting Interpreters* — a hands-on modern book to build interpreters (great for understanding runtimes). [https://craftinginterpreters.com/](https://craftinginterpreters.com/)
+  * *Crafting Interpreters* : a hands-on modern book to build interpreters (great for understanding runtimes). [https://craftinginterpreters.com/](https://craftinginterpreters.com/)
 * Short course/lecture sets on compilers (Stanford CS143). [https://web.stanford.edu/class/cs143/](https://web.stanford.edu/class/cs143/)
 
 ---
 
-## 2) ⚡ Algorithms & Data Structures — core ideas and complexity
+## 2) ⚡ Algorithms & Data Structures : core ideas and complexity
 
 **Why:** Efficient code and proper data structures are the difference between engineering & scripting.
 
@@ -396,15 +396,15 @@ Prebuilt small apps for learners.
 
 **Links / resources (mix of textbooks, courses, cheat sheets):**
 
-* *Introduction to Algorithms (CLRS)* — canonical textbook. [https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
-* MIT OCW 6.006 — video lectures and notes (practical + exercises). [https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
+* *Introduction to Algorithms (CLRS)* : canonical textbook. [https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
+* MIT OCW 6.006 : video lectures and notes (practical + exercises). [https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
 * Big-O & cheat sheets (quick reference). [https://www.bigocheatsheet.com/](https://www.bigocheatsheet.com/)
 * GeeksforGeeks DSA tutorial (practical implementations + problems). [https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)
 * Hands-on playlists / practice (video playlists / coding challenge series). [https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
 
 ---
 
-## 3) 🐧 Operating systems & Linux — what is Linux, how it works, recommended learning path
+## 3) 🐧 Operating systems & Linux : what is Linux, how it works, recommended learning path
 
 **Why:** Every server and dev machine runs an OS. Linux is the universal production OS for servers and most developer stacks.
 
@@ -412,10 +412,10 @@ Prebuilt small apps for learners.
 
 **Beginner → power user resources:**
 
-* *Linux Journey* — beginner friendly interactive lessons. [https://labex.io/linuxjourney](https://labex.io/linuxjourney).
-* *The Linux Command Line* (book + site) — great hands-on tutorial and scripting intro. [https://linuxcommand.org/](https://linuxcommand.org/) and book PDF.
-* *ArchWiki* — deep reference (install guides, package manager details, an indispensable reference for troubleshooting). [https://wiki.archlinux.org/](https://wiki.archlinux.org/)
-* *Linux From Scratch* — advanced: build a Linux system from source (learn what's under the hood). [https://www.linuxfromscratch.org/](https://www.linuxfromscratch.org/)
+* *Linux Journey* : beginner friendly interactive lessons. [https://labex.io/linuxjourney](https://labex.io/linuxjourney).
+* *The Linux Command Line* (book + site) : great hands-on tutorial and scripting intro. [https://linuxcommand.org/](https://linuxcommand.org/) and book PDF.
+* *ArchWiki* : deep reference (install guides, package manager details, an indispensable reference for troubleshooting). [https://wiki.archlinux.org/](https://wiki.archlinux.org/)
+* *Linux From Scratch* : advanced: build a Linux system from source (learn what's under the hood). [https://www.linuxfromscratch.org/](https://www.linuxfromscratch.org/)
 
 **Suggested mini-curriculum:**
 
@@ -424,9 +424,9 @@ Prebuilt small apps for learners.
 
 ---
 
-## 4) 💻 Shells & shell scripting (`.sh`, bash, zsh, fish) — what `.sh` is and how scripts run
+## 4) 💻 Shells & shell scripting (`.sh`, bash, zsh, fish) : what `.sh` is and how scripts run
 
-**What is `.sh`?** A `.sh` file is a text file with shell commands (POSIX shell or bash). It becomes executable (`chmod +x`) and the kernel runs the shell interpreter you specify in the shebang (e.g. `#!/usr/bin/env bash`). Shell scripts glue system commands, program invocations, and small logic — they're ideal for automation, tooling, bootstrapping environments.
+**What is `.sh`?** A `.sh` file is a text file with shell commands (POSIX shell or bash). It becomes executable (`chmod +x`) and the kernel runs the shell interpreter you specify in the shebang (e.g. `#!/usr/bin/env bash`). Shell scripts glue system commands, program invocations, and small logic : they're ideal for automation, tooling, bootstrapping environments.
 
 **Core learning topics:** shebang, quoting, variables, pipes, redirects, exit codes, `set -euo pipefail`, functions, loops, parameter expansion, `xargs`, `&&` vs `;`, subprocess control, traps, POSIX portability vs Bash extensions.
 
@@ -441,19 +441,19 @@ Prebuilt small apps for learners.
 
 ---
 
-## 5) 📦 Package managers & environments — system vs language packaging
+## 5) 📦 Package managers & environments : system vs language packaging
 
 **Why:** Installing software reproducibly is vital. Understand system package managers (apt, pacman) **and** language/package managers (pip, poetry, npm for JS).
 
 **System package managers:**
 
-* Debian/Ubuntu `apt` — overview & CLI. [https://wiki.debian.org/Apt](https://wiki.debian.org/Apt) and [https://wiki.debian.org/AptCLI](https://wiki.debian.org/AptCLI).
+* Debian/Ubuntu `apt` : overview & CLI. [https://wiki.debian.org/Apt](https://wiki.debian.org/Apt) and [https://wiki.debian.org/AptCLI](https://wiki.debian.org/AptCLI).
 * Arch `pacman` (how Arch manages packages & AUR). [https://wiki.archlinux.org/title/Pacman](https://wiki.archlinux.org/title/Pacman).
 
 **Python packaging & environment tools:**
 
 * `pip` official docs (installing packages and requirements files). [https://pip.pypa.io/](https://pip.pypa.io/) and getting-started.
-* `poetry` — modern dependency manager & packaging for Python projects. [https://python-poetry.org/docs/](https://python-poetry.org/docs/) and Real Python guide.
+* `poetry` : modern dependency manager & packaging for Python projects. [https://python-poetry.org/docs/](https://python-poetry.org/docs/) and Real Python guide.
 
 **Notes:** Learn virtual environments (`venv` / `python -m venv`) and prefer locked dependencies (`requirements.txt` or `poetry.lock`) for reproducible installs.
 
@@ -469,7 +469,7 @@ Prebuilt small apps for learners.
 * Practical Makefile tutorial (learn by example). [https://makefiletutorial.com/](https://makefiletutorial.com/)
 * Examples & guides (Docker/Compose + Make integration patterns). docs and community examples. [https://docs.docker.com/compose/](https://docs.docker.com/compose/) (see Compose build/use with Make).
 
-**How to use:** Start small — a `Makefile` with `make install`, `make test`, `make run`, then add dependency targets. Use `make` for reproducible dev tasks and CI jobs.
+**How to use:** Start small : a `Makefile` with `make install`, `make test`, `make run`, then add dependency targets. Use `make` for reproducible dev tasks and CI jobs.
 
 ---
 
@@ -480,7 +480,7 @@ Prebuilt small apps for learners.
 **Core tools & resources:**
 
 * Git basics & *Pro Git* book (complete reference). [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2) and [https://git-scm.com/](https://git-scm.com/).
-* GitHub Actions — get started with CI workflows (run tests, linters, builds). [https://docs.github.com/en/actions/get-started/quickstart](https://docs.github.com/en/actions/get-started/quickstart) and [https://docs.github.com/en/actions](https://docs.github.com/en/actions).
+* GitHub Actions : get started with CI workflows (run tests, linters, builds). [https://docs.github.com/en/actions/get-started/quickstart](https://docs.github.com/en/actions/get-started/quickstart) and [https://docs.github.com/en/actions](https://docs.github.com/en/actions).
 * Testing frameworks (pytest) to integrate into CI. [https://docs.pytest.org/](https://docs.pytest.org/) and pytest getting started.
 
 **Tip:** Make CI run `make test` or `pytest` so dev and CI use the same command.
@@ -489,21 +489,21 @@ Prebuilt small apps for learners.
 
 ## 8) 🌐 Networking fundamentals: TCP/IP, HTTP, DNS (practical explanations)
 
-**Why:** Everything you deploy uses networks — understanding HTTP and DNS prevents many headaches.
+**Why:** Everything you deploy uses networks : understanding HTTP and DNS prevents many headaches.
 
 **Must-understand topics:** IP addresses, ports, sockets, DNS resolution, HTTP methods, TLS basics, headers, status codes, caching, reverse proxies.
 
 **Good concise resources:**
 
 * DNS explained (Cloudflare): what DNS is and record types. [https://www.cloudflare.com/learning/dns/what-is-dns/](https://www.cloudflare.com/learning/dns/what-is-dns/) and [https://www.cloudflare.com/learning/dns/dns-records/](https://www.cloudflare.com/learning/dns/dns-records/).
-* HTTP overview & guides (MDN) — request/response model and methods. [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).
+* HTTP overview & guides (MDN) : request/response model and methods. [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).
 * Practical HTTP details (methods, status codes, caching). [https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods).
 
 **Practice:** Run a simple Python HTTP server, use `curl` to request it, read headers, then make DNS entries for local testing (e.g., `/etc/hosts`) and try TLS with `openssl s_client` or a local `nginx` with a self-signed cert.
 
 ---
 
-## 9) 🗃️ Databases & storage — SQL vs NoSQL and common systems
+## 9) 🗃️ Databases & storage : SQL vs NoSQL and common systems
 
 **Why:** Persisting data reliably and choosing the right datatype/DB is central to app design.
 
@@ -511,7 +511,7 @@ Prebuilt small apps for learners.
 
 **Resources & docs:**
 
-* PostgreSQL official docs — production-grade relational DB. [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/) and [https://www.postgresql.org/](https://www.postgresql.org/).
+* PostgreSQL official docs : production-grade relational DB. [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/) and [https://www.postgresql.org/](https://www.postgresql.org/).
 * Redis (in-memory data store, caching, simple key/value). [https://redis.io/](https://redis.io/) and docs.
 * MongoDB / NoSQL explained (document DB intro & when to use it). [https://www.mongodb.com/resources/basics/databases/nosql-explained](https://www.mongodb.com/resources/basics/databases/nosql-explained) and general MongoDB docs.
 * Tutorials for learning SQL (SQLBolt, SQL tutorial). [https://sqlbolt.com/](https://sqlbolt.com/) (practice queries).
@@ -520,7 +520,7 @@ Prebuilt small apps for learners.
 
 ---
 
-## 10) 🐳 Containers & virtualization — Docker + Docker Compose (and intro to orchestration)
+## 10) 🐳 Containers & virtualization : Docker + Docker Compose (and intro to orchestration)
 
 **Why:** Containers are the standard dev→prod packaging model.
 
@@ -545,7 +545,7 @@ Prebuilt small apps for learners.
 * Process basics and the Linux process model (fork, exec, signals). Linux Journey process lessons. [https://labex.io/lesson/process-details](https://labex.io/lesson/process-details).
 * `systemd` (how Linux manages services; write unit files, enable/disable). [https://www.freedesktop.org/wiki/Software/systemd/](https://www.freedesktop.org/wiki/Software/systemd/)
 * Cron & crontab (scheduling). crontab man page: [https://man7.org/linux/man-pages/man5/crontab.5.html](https://man7.org/linux/man-pages/man5/crontab.5.html)
-* Python concurrency: `threading`, `multiprocessing`, and `asyncio` — official docs and tutorials. [https://docs.python.org/3/library/asyncio.html](https://docs.python.org/3/library/asyncio.html)
+* Python concurrency: `threading`, `multiprocessing`, and `asyncio` : official docs and tutorials. [https://docs.python.org/3/library/asyncio.html](https://docs.python.org/3/library/asyncio.html)
 
 **Practice:** Convert a CPU-bound task to a background worker (use `multiprocessing`) and an I/O heavy task to `asyncio` or an event loop server.
 
@@ -560,11 +560,11 @@ Prebuilt small apps for learners.
 * `pytest` for tests (unit, integration). [https://docs.pytest.org/](https://docs.pytest.org/)
 * Python profiling (cProfile), `timeit`, and memory profilers. Python docs and `cProfile` examples.
 * Logging best practices (structured logs, levels, correlation IDs). See logging docs & ELK/Prometheus stacks.
-* Observability basics — Prometheus (metrics) and Grafana (visualization). [https://prometheus.io/docs/introduction/overview/](https://prometheus.io/docs/introduction/overview/) and [https://grafana.com/docs/grafana/latest/](https://grafana.com/docs/grafana/latest/)
+* Observability basics : Prometheus (metrics) and Grafana (visualization). [https://prometheus.io/docs/introduction/overview/](https://prometheus.io/docs/introduction/overview/) and [https://grafana.com/docs/grafana/latest/](https://grafana.com/docs/grafana/latest/)
 
 ---
 
-## 13) 🔒 Security basics — TLS/HTTPS, certs, keys, common mistakes
+## 13) 🔒 Security basics : TLS/HTTPS, certs, keys, common mistakes
 
 **Why:** Deploying insecurely is dangerous. Learn TLS, cert rotation, secrets management.
 
@@ -572,13 +572,13 @@ Prebuilt small apps for learners.
 
 * How Let's Encrypt works (free automated CA) + Certbot. [https://letsencrypt.org/how-it-works/](https://letsencrypt.org/how-it-works/) and certbot docs.
 * OpenSSL CLI docs (generate CSR, keys, debug TLS). [https://docs.openssl.org/](https://docs.openssl.org/) and command reference.
-* Basic TLS best practices (HSTS, strong cipher suites, renewals) — DigitalOcean tutorial intro. [https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt)
+* Basic TLS best practices (HSTS, strong cipher suites, renewals) : DigitalOcean tutorial intro. [https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt)
 
 **Practice:** Use Certbot to generate a cert in a test VM, configure nginx to serve HTTPS, inspect the TLS handshake with `openssl s_client`.
 
 ---
 
-## 14) 📨 Messaging, queues & streaming — when to use RabbitMQ vs Kafka
+## 14) 📨 Messaging, queues & streaming : when to use RabbitMQ vs Kafka
 
 **Why:** For background jobs, decoupling services, real-time streams.
 
@@ -600,10 +600,10 @@ Prebuilt small apps for learners.
 
 **Books / big references:**
 
-* *Introduction to Algorithms (CLRS)* — algorithms. [https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
-* *The Linux Command Line* — learn the terminal & scripting. [https://linuxcommand.org/](https://linuxcommand.org/)
-* *Compilers (Dragon Book)* and *Crafting Interpreters* — for languages, runtimes. [https://suif.stanford.edu/dragonbook/](https://suif.stanford.edu/dragonbook/) and [https://craftinginterpreters.com/](https://craftinginterpreters.com/)
-* *Pro Git* — authoritative Git book. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+* *Introduction to Algorithms (CLRS)* : algorithms. [https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/)
+* *The Linux Command Line* : learn the terminal & scripting. [https://linuxcommand.org/](https://linuxcommand.org/)
+* *Compilers (Dragon Book)* and *Crafting Interpreters* : for languages, runtimes. [https://suif.stanford.edu/dragonbook/](https://suif.stanford.edu/dragonbook/) and [https://craftinginterpreters.com/](https://craftinginterpreters.com/)
+* *Pro Git* : authoritative Git book. [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
 **Courses (free/quality):**
 
@@ -625,13 +625,13 @@ Prebuilt small apps for learners.
 
 ## 🛠️ Small toolbox (commands & utilities to learn right away)
 
-* `ssh`, `scp`, `rsync` (remote access & transfers) — practice secure remote logins.
-* `tmux` or `screen` — keep long jobs in a persistent terminal.
-* `jq` — JSON CLI processing.
-* `curl` / `httpie` — API debugging.
-* `sed` / `awk` — text processing (learn core patterns).
-* `systemctl`, `journalctl` — manage services & read logs.
-* `strace` / `ltrace` / `perf` — low-level debugging and profiling when needed.
+* `ssh`, `scp`, `rsync` (remote access & transfers) : practice secure remote logins.
+* `tmux` or `screen` : keep long jobs in a persistent terminal.
+* `jq` : JSON CLI processing.
+* `curl` / `httpie` : API debugging.
+* `sed` / `awk` : text processing (learn core patterns).
+* `systemctl`, `journalctl` : manage services & read logs.
+* `strace` / `ltrace` / `perf` : low-level debugging and profiling when needed.
 
 ---
 
@@ -639,7 +639,7 @@ Prebuilt small apps for learners.
 
 * Start with **Linux basics + shell scripting** (Linux Journey + The Linux Command Line). Practice daily.
 * Learn **git** and write small projects (Pro Git). Add `pytest` tests and run them locally + CI.
-* Containerize with **Docker** and add a DB container (Postgres) and a cache (Redis) — use Compose for local stacks.
+* Containerize with **Docker** and add a DB container (Postgres) and a cache (Redis) : use Compose for local stacks.
 * Parallel path: study **algorithms & data structures** (MIT OCW / CLRS) to level up as an engineer.
 
 ---
@@ -703,7 +703,7 @@ If you want fast, tiny frontends without a full SPA: combine Tailwind + Alpine f
 What to learn: npm (or pnpm), Vite as dev server/bundler, PostCSS for Tailwind, and a lightweight dev pipeline (no heavy CRA if you don't need it).
 
 * ⚡ Vite + Tailwind quickstarts & docs: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation) (Vite examples included).
-* 📦 General npm/pnpm docs (use what you prefer) — npm docs: [https://docs.npmjs.com/](https://docs.npmjs.com/).
+* 📦 General npm/pnpm docs (use what you prefer) : npm docs: [https://docs.npmjs.com/](https://docs.npmjs.com/).
 
 ---
 
@@ -720,22 +720,22 @@ Automated browser tests detect regressions. Use Playwright or Cypress. Playwrigh
 
 Know HTTP methods, headers, status codes, idempotency, content negotiation, and when to choose REST vs GraphQL. For simple CRUD/CRUD+search REST works fine; use GraphQL when you need flexible client queries and single endpoint with typed schema.
 
-* 🌍 HTTP basics (MDN) — request/response model: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).
+* 🌍 HTTP basics (MDN) : request/response model: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).
 * 🔄 REST vs GraphQL explainer: HowToGraphQL & AWS comparison articles for pros/cons. [https://howtographql.com/basics/1-graphql-is-the-better-rest/](https://howtographql.com/basics/1-graphql-is-the-better-rest/) and [https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/](https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/).
 
 ---
 
 ## 7) 🐍 Python frameworks: Django & FastAPI 🚀
 
-**Django (full-featured, opinionated, batteries included)** — templates, ORM, admin, auth out of the box. Best for server-rendered apps and monoliths.
+**Django (full-featured, opinionated, batteries included)** : templates, ORM, admin, auth out of the box. Best for server-rendered apps and monoliths.
 
 * 🎸 Django official getting started & tutorial: [https://docs.djangoproject.com/en/5.2/intro/](https://docs.djangoproject.com/en/5.2/intro/) and [https://www.djangoproject.com/start/](https://www.djangoproject.com/start/).
 
-**FastAPI (modern, async-first, excellent for APIs)** — very fast, automatic OpenAPI docs, pydantic models (now pydantic v2 or similar), great for microservices and API-first designs.
+**FastAPI (modern, async-first, excellent for APIs)** : very fast, automatic OpenAPI docs, pydantic models (now pydantic v2 or similar), great for microservices and API-first designs.
 
 * ⚡ FastAPI tutorial & guide: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/). 
 
-**ASGI vs WSGI** — FastAPI uses ASGI (async), Django historically WSGI but supports ASGI for async features — know the difference for deployment. (See FastAPI/Django docs for deployment notes.)
+**ASGI vs WSGI** : FastAPI uses ASGI (async), Django historically WSGI but supports ASGI for async features : know the difference for deployment. (See FastAPI/Django docs for deployment notes.)
 ---
 
 ## 8) 🗃️ Databases, ORM & migrations 💾
@@ -746,7 +746,7 @@ Know HTTP methods, headers, status codes, idempotency, content negotiation, and 
 * 🐍 Psycopg (modern Python adapter, async-ready): [https://www.psycopg.org/psycopg3/docs/](https://www.psycopg.org/psycopg3/docs/).
 * 🔄 Migrations & SQLAlchemy/alembic (search alembic docs) and Django migrations (docs). *(See Django & SQLAlchemy docs above.)*
 
-**Caching / ephemeral stores:** Redis for caching, sessions, rate-limiting — docs & quickstart: [https://redis.io/](https://redis.io/). 🗃️
+**Caching / ephemeral stores:** Redis for caching, sessions, rate-limiting : docs & quickstart: [https://redis.io/](https://redis.io/). 🗃️
 
 ---
 
@@ -784,19 +784,19 @@ Containerize for parity with prod. Compose is the easiest multi-service local se
 
 ## 12) 🏗️ Production patterns: Gunicorn/Uvicorn, Nginx/Traefik, platforms & CI/CD 🚀
 
-**Servers:** For FastAPI, run Uvicorn (ASGI) — often behind Gunicorn as a *process manager* using `uvicorn.workers.UvicornWorker` in production. For Django use Gunicorn (WSGI) with Nginx in front.
+**Servers:** For FastAPI, run Uvicorn (ASGI) : often behind Gunicorn as a *process manager* using `uvicorn.workers.UvicornWorker` in production. For Django use Gunicorn (WSGI) with Nginx in front.
 
 * 🦄 Uvicorn/Gunicorn deployment guide (official & community): [https://uvicorn.org/deployment/](https://uvicorn.org/deployment/) and Gunicorn docs.
 * 🌊 DigitalOcean/Nginx/Gunicorn Django tutorial (worked example): [https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu).
 
-**Reverse proxies & ingress:** Nginx (traditional), Traefik (dynamic config, Docker-friendly). Use them to terminate TLS and route to containers. (See Nginx docs and Traefik docs — search).
+**Reverse proxies & ingress:** Nginx (traditional), Traefik (dynamic config, Docker-friendly). Use them to terminate TLS and route to containers. (See Nginx docs and Traefik docs : search).
 **Platforms:** easy deployment options: Render, Fly.io, and Vercel (for serverless/backends or frontend hosting).
 
 * 🎨 Render docs (web services quickstart): [https://render.com/docs/web-services](https://render.com/docs/web-services).
 * ✈️ Fly.io Python guides (FastAPI/Django): [https://fly.io/docs/python/](https://fly.io/docs/python/) and tutorials.
 * ▲ Vercel backend guide (serverless APIs): [https://vercel.com/guides/hosting-backend-apis](https://vercel.com/guides/hosting-backend-apis).
 
-**CI/CD:** Use GitHub Actions to run tests, linters, and deploy Docker images — GitHub Actions docs & official workflows (search GitHub Actions docs).
+**CI/CD:** Use GitHub Actions to run tests, linters, and deploy Docker images : GitHub Actions docs & official workflows (search GitHub Actions docs).
 
 ---
 
@@ -808,7 +808,7 @@ Containerize for parity with prod. Compose is the easiest multi-service local se
 
 ---
 
-## 14) ❓ Quick FAQ — GraphQL vs REST (short guidance) 🤔
+## 14) ❓ Quick FAQ : GraphQL vs REST (short guidance) 🤔
 
 * Use **REST** for simple resource-based CRUD endpoints with straightforward caching & proxies. Use **GraphQL** when clients need very flexible queries and you want a typed contract and fewer round-trips; beware complexity (caching, N+1 problems). Read a balanced compare: [https://konghq.com/blog/graphql-vs-rest/](https://konghq.com/blog/graphql-vs-rest/) and [https://howtographql.com/](https://howtographql.com/).
 
@@ -820,7 +820,7 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 
 ### A) 🐳 Local Dev Environment Manager (GUI for your Docker dev stacks)
 
-**Idea:** A tiny web UI that lists your local Docker Compose projects, shows container status, starts/stops stacks, tails logs, and can generate `mkcert` certs and host entries for each project — one place to manage local projects. Saves devs from juggling terminal windows.
+**Idea:** A tiny web UI that lists your local Docker Compose projects, shows container status, starts/stops stacks, tails logs, and can generate `mkcert` certs and host entries for each project : one place to manage local projects. Saves devs from juggling terminal windows.
 
 **Why helpful:** speeds onboarding, avoids manual `docker compose up` juggling, and makes local HTTPS trivial.
 
@@ -838,7 +838,7 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 
 ### C) 📝 Project README / Dev-Env Generator (auto-create README + Makefile + docker-compose)
 
-**Idea:** Paste a repo skeleton (language, DB, uses Celery?, needs TLS?) and the service generates a ready-to-run `README.md`, `Makefile` with `make setup / make run / make test`, and `docker-compose.yml` tuned to the selection — saves setup time for boilerplate. Add a tiny web UI to customize.
+**Idea:** Paste a repo skeleton (language, DB, uses Celery?, needs TLS?) and the service generates a ready-to-run `README.md`, `Makefile` with `make setup / make run / make test`, and `docker-compose.yml` tuned to the selection : saves setup time for boilerplate. Add a tiny web UI to customize.
 
 **Minimal stack:** FastAPI backend that uses Jinja templates to render files, Tailwind + Alpine frontend. Provide download as zip. Use cookiecutter patterns if you want template expansion.
 
@@ -904,7 +904,7 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 
 ---
 
-## 1) 🏠 Environment & packaging — reproducible dev environments 📦
+## 1) 🏠 Environment & packaging : reproducible dev environments 📦
 
 Short idea: use **virtual environments** for every project, use `pipx` for installing single-file CLI tools globally, and use **Poetry** (or similar) to manage project dependencies + build wheels.
 
@@ -912,7 +912,7 @@ Links:
 
 * 🎵 Poetry (dependency management & packaging).
   [https://python-poetry.org/docs/](https://python-poetry.org/docs/)
-* 📦 pipx — install Python CLI apps in isolated venvs.
+* 📦 pipx : install Python CLI apps in isolated venvs.
   [https://pipx.pypa.io/](https://pipx.pypa.io/)
 * 🐍 pip docs & best practice for installers / requirements.
   [https://pip.pypa.io/](https://pip.pypa.io/)
@@ -925,13 +925,13 @@ Quick guidance: `python -m venv .venv && .venv/bin/pip install -U pip` → use P
 
 These are the building blocks for reliable scripts.
 
-* 📁 `pathlib` — modern path handling (prefer over `os.path`). Docs + tutorial.
+* 📁 `pathlib` : modern path handling (prefer over `os.path`). Docs + tutorial.
   [https://docs.python.org/3/library/pathlib.html](https://docs.python.org/3/library/pathlib.html).
-* ⚙️ `subprocess` — spawn shell commands safely (avoid `os.system`). Use `subprocess.run`/`Popen`.
+* ⚙️ `subprocess` : spawn shell commands safely (avoid `os.system`). Use `subprocess.run`/`Popen`.
   [https://docs.python.org/3/library/subprocess.html](https://docs.python.org/3/library/subprocess.html).
-* 🏷️ `typing` / `dataclasses` — incremental type hints + convenient immutable data containers.
+* 🏷️ `typing` / `dataclasses` : incremental type hints + convenient immutable data containers.
   [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html).
-* 📝 `logging` — structured logging; later layer with JSON loggers / centralized collectors.
+* 📝 `logging` : structured logging; later layer with JSON loggers / centralized collectors.
 
 Use `pathlib.Path` for file glue, `subprocess` for invoking system tools (tar, docker, git), and types + dataclasses to keep code maintainable.
 
@@ -943,16 +943,16 @@ What to learn: idempotent scripts, environment checks, exit codes, `set -euo pip
 
 Resources & examples:
 
-* 📚 *Automate the Boring Stuff* — practical automation projects and file/regex/Excel/email examples.
+* 📚 *Automate the Boring Stuff* : practical automation projects and file/regex/Excel/email examples.
   [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
 * ⏰ Cron vs systemd timers (use systemd timers for modern service scheduling; cron for simple schedules). See distro docs / systemd docs (referenced in Part I). (See Part I links for systemd/crons).
-* 🔧 Pattern: small shell `.sh` that bootstraps venv and then runs `python -m mytool task` — or use `pyproject` entry points.
+* 🔧 Pattern: small shell `.sh` that bootstraps venv and then runs `python -m mytool task` : or use `pyproject` entry points.
 
 Automation tip: when shell-level orchestration grows, move logic into Python (better error handling, easier testing).
 
 ---
 
-## 4) 💻 CLI apps — from `argparse` → Click → Typer 🖥️
+## 4) 💻 CLI apps : from `argparse` → Click → Typer 🖥️
 
 Start with `argparse` for tiny scripts; for serious CLI apps use **Click** or **Typer** (Typer = Click + typing convenience).
 
@@ -960,9 +960,9 @@ Links:
 
 * 🏷️ `argparse` official docs + Real Python tutorial.
   [https://docs.python.org/3/library/argparse.html](https://docs.python.org/3/library/argparse.html).
-* 🎯 Click — mature CLI framework (Pallets).
+* 🎯 Click : mature CLI framework (Pallets).
   [https://click.palletsprojects.com/](https://click.palletsprojects.com/)
-* ⚡ Typer — easy modern CLIs using type hints (great for developer UX).
+* ⚡ Typer : easy modern CLIs using type hints (great for developer UX).
   [https://typer.tiangolo.com/](https://typer.tiangolo.com/)
 
 Pattern: build a `cli` package with subcommands, expose an entry point in `pyproject.toml`, and allow `--help` & good exit codes.
@@ -975,18 +975,18 @@ For interacting with the web, scraping APIs, or building simple HTTP clients.
 
 Links:
 
-* 📡 Requests — the classic synchronous HTTP lib.
+* 📡 Requests : the classic synchronous HTTP lib.
   [https://requests.readthedocs.io/](https://requests.readthedocs.io/)
-* ⚡ HTTPX — sync **and** async HTTP client (HTTP/2 support).
+* ⚡ HTTPX : sync **and** async HTTP client (HTTP/2 support).
   [https://www.python-httpx.org/](https://www.python-httpx.org/)
-* 🔄 Aiohttp — async client & server for asyncio. Use when building async apps.
+* 🔄 Aiohttp : async client & server for asyncio. Use when building async apps.
   [https://docs.aiohttp.org/](https://docs.aiohttp.org/)
 
 Practice: start with `requests` for scripts; move to `httpx` or `aiohttp` when you need concurrency.
 
 ---
 
-## 6) ⚡ Concurrency & async — `asyncio` + patterns 🔄
+## 6) ⚡ Concurrency & async : `asyncio` + patterns 🔄
 
 When I/O dominates (HTTP, DB), use async; for CPU-bound tasks use `multiprocessing`.
 
@@ -1000,26 +1000,26 @@ Patterns: use `asyncio.gather` for concurrent I/O, prefer high-level libraries (
 
 ---
 
-## 7) 📊 Data tooling & science — pandas, numpy, plotting, Jupyter 📈
+## 7) 📊 Data tooling & science : pandas, numpy, plotting, Jupyter 📈
 
 If you want to analyze logs, CSVs, or build small ETL scripts, pandas is central.
 
 Links:
 
-* 🐼 pandas — official "10 minutes" guide + getting started.
+* 🐼 pandas : official "10 minutes" guide + getting started.
   [https://pandas.pydata.org/docs/getting\_started/intro\_tutorials/](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)
-* 🔢 NumPy — arrays & performance foundations.
+* 🔢 NumPy : arrays & performance foundations.
   [https://numpy.org/doc/stable/](https://numpy.org/doc/stable/)
 * 📊 Matplotlib tutorials + pyplot reference (plots, histograms).
   [https://matplotlib.org/stable/tutorials/pyplot.html](https://matplotlib.org/stable/tutorials/pyplot.html).
-* 📓 Jupyter / JupyterLab — interactive exploration and reproducible notebooks.
+* 📓 Jupyter / JupyterLab : interactive exploration and reproducible notebooks.
   [https://jupyter.org/](https://jupyter.org/) and [https://jupyterlab.readthedocs.io/](https://jupyterlab.readthedocs.io/).
 
 Use pandas for ETL, exploratory analysis, log aggregation and small reporting. For production pipelines, prefer streaming frameworks or batch jobs with checkpoints.
 
 ---
 
-## 8) 🧪 Testing & QA — pytest + property-based testing 🔬
+## 8) 🧪 Testing & QA : pytest + property-based testing 🔬
 
 Tests make automation maintainable.
 
@@ -1027,14 +1027,14 @@ Links:
 
 * ✅ pytest official docs (fixtures, parametrize, plugins).
   [https://docs.pytest.org/en/stable/getting-started.html](https://docs.pytest.org/en/stable/getting-started.html).
-* 🎲 Hypothesis — property-based testing to find edge cases automatically.
+* 🎲 Hypothesis : property-based testing to find edge cases automatically.
   [https://hypothesis.readthedocs.io/](https://hypothesis.readthedocs.io/)
 
 Practice: write unit tests for pure functions and integration tests for scripts (use temp dirs and monkeypatch fixtures), run tests in CI (GitHub Actions).
 
 ---
 
-## 9) 🎨 Formatting & static analysis — keep code readable & safe ✨
+## 9) 🎨 Formatting & static analysis : keep code readable & safe ✨
 
 Make code consistent and less review-friction.
 
@@ -1042,24 +1042,24 @@ Links:
 
 * ⚫ Black (formatter).
   [https://black.readthedocs.io/](https://black.readthedocs.io/)
-* 🔍 mypy (static type checking) — adopt type hints gradually.
+* 🔍 mypy (static type checking) : adopt type hints gradually.
   [https://mypy.readthedocs.io/](https://mypy.readthedocs.io/)
 
 Add pre-commit hooks so formatting / type checks run automatically before commits.
 
 ---
 
-## 10) 🔍 Debugging & profiling — find the slow/buggy parts 🐛
+## 10) 🔍 Debugging & profiling : find the slow/buggy parts 🐛
 
 Essentials to diagnose issues in scripts and services.
 
 Links:
 
-* 🐞 `pdb` — standard lib debugger; `ipdb` for a friendlier REPL.
+* 🐞 `pdb` : standard lib debugger; `ipdb` for a friendlier REPL.
   [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html).
-* 📊 `cProfile` — deterministic profiler for hotspots.
+* 📊 `cProfile` : deterministic profiler for hotspots.
   [https://docs.python.org/3/library/profile.html](https://docs.python.org/3/library/profile.html).
-* 🔥 `py-spy` — low-overhead sampling profiler (works in prod, flamegraphs).
+* 🔥 `py-spy` : low-overhead sampling profiler (works in prod, flamegraphs).
   [https://github.com/benfred/py-spy](https://github.com/benfred/py-spy).
 
 Workflow: reproduce locally → instrument with `cProfile` → visualize; if in production, attach `py-spy` (no restart) to inspect.
@@ -1086,7 +1086,7 @@ Dockerize scripts when environment parity matters. Keep images small (use slim b
 
 Links:
 
-* 🐳 Docker docs (Python + Docker patterns referenced in Part II). (See Part II links — Docker get-started).
+* 🐳 Docker docs (Python + Docker patterns referenced in Part II). (See Part II links : Docker get-started).
 
 Tip: For CLI tools, consider shipping single-file executables with `shiv`/`pyinstaller` or let users `pipx install` the package.
 
@@ -1115,11 +1115,11 @@ Useful tools/patterns:
 
 ## 15) 💡 **Projects: practical QoL tools** 🚀
 
-No todo apps — these are hands-on, tiny tools that solve real small pain points for average programmers. Each idea includes scope, recommended stack, and links to libraries/docs so you can build them.
+No todo apps, these are hands-on, tiny tools that solve real small pain points for average programmers. Each idea includes scope, recommended stack, and links to libraries/docs so you can build them.
 
 ---
 
-### Project A — **🔄 Dependency Update Sandbox & Smoke-Tester** 🧪
+### Project A : **🔄 Dependency Update Sandbox & Smoke-Tester** 🧪
 
 **Problem it solves:** Updating dependencies may break your app. Manually testing each update is slow and risky.
 
@@ -1129,11 +1129,11 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 **Minimal stack & libraries:** Poetry (or pip + constraints files) to generate isolated envs, `subprocess` + Docker SDK or `pipx` for isolated installs, `pytest` for smoke tests, GitHub Actions for automation.
 
-**Links:** Poetry docs (manage deps) — Pytest docs (run tests) — Docker SDK for Python for containerized sandboxes.
+**Links:** Poetry docs (manage deps) : Pytest docs (run tests) : Docker SDK for Python for containerized sandboxes.
 
 ---
 
-### Project B — **Smart Snippet Inserter for Editors & CLIs** 📝
+### Project B : **Smart Snippet Inserter for Editors & CLIs** 📝
 
 **Problem it solves:** Repetitive boilerplate (license headers, logging setup, test templates) inserted manually across repos. 🔄  
 
@@ -1143,11 +1143,11 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 **Minimal stack & libs:** Typer for CLI, Jinja2 for templating, filesystem ops via `pathlib`, optional tiny FastAPI server for networked snippet management. Use `pipx` for deployment on dev machines. 🛠️  
 
-**Links:** Typer docs — Jinja2 docs (templating; search "jinja2 docs") — pathlib/subprocess for file ops.
+**Links:** Typer docs : Jinja2 docs (templating; search "jinja2 docs") : pathlib/subprocess for file ops.
 
 ---
 
-### Project C — **Local Clipboard + OCR Collector (LAN-accessible)** 📋✨
+### Project C : **Local Clipboard + OCR Collector (LAN-accessible)** 📋✨
 
 **Problem it solves:** Moving small screenshots / snippets between devices and turning screenshots into searchable text is tedious. 📱➡️💻  
 
@@ -1161,11 +1161,11 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 ---
 
-### Project D — **One-click Local HTTPS (mkcert) & Hosts Manager** 🔒🌐
+### Project D : **One-click Local HTTPS (mkcert) & Hosts Manager** 🔒🌐
 
 **Problem it solves:** Local dev with HTTPS + custom hostnames is fiddly (mkcert + /etc/hosts + docker networks). 🤯  
 
-**What it does:** GUI + CLI that finds local projects (docker-compose / local ports), generates mkcert certs for chosen hostnames, writes to a dev hosts file (or manages DNS via dnsmasq), and configures a local reverse proxy (traefik/nginx) to serve TLS—one button to enable HTTPS for an app. Optionally roll certs into containers automatically. 🎯  
+**What it does:** GUI + CLI that finds local projects (docker-compose / local ports), generates mkcert certs for chosen hostnames, writes to a dev hosts file (or manages DNS via dnsmasq), and configures a local reverse proxy (traefik/nginx) to serve TLS:one button to enable HTTPS for an app. Optionally roll certs into containers automatically. 🎯  
 
 **Why useful:** makes local HTTPS painless for frontend engineers and mobile debugging. 📱  
 
@@ -1173,7 +1173,7 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 ---
 
-### Project E — **Commit Message Linter & Augmentor** 📝✅
+### Project E : **Commit Message Linter & Augmentor** 📝✅
 
 **Problem it solves:** Poor commit messages and inconsistent changelogs. 😵
 
@@ -1187,7 +1187,7 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 ---
 
-### Project F — **Quick Exporter — CSV/Excel Cleaner for Logs** 📊🧹
+### Project F : **Quick Exporter : CSV/Excel Cleaner for Logs** 📊🧹
 
 **Problem it solves:** Extracting and cleaning named columns from messy log files (syslog, custom app logs) to CSV/Excel for quick analysis. 📈  
 
@@ -1201,7 +1201,7 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 * Start small: write lots of single-purpose scripts and then generalize into proper CLI apps. Use tests from day one (pytest). ✅
 * Use `pipx` to install your CLI tools during development so you test the "installed" UX. 📦
-* Automate dependency updates (Project A) early — it's a big maintenance win. Use lockfiles (poetry/pip-tools) for reproducibility. 🔄
+* Automate dependency updates (Project A) early : it's a big maintenance win. Use lockfiles (poetry/pip-tools) for reproducibility. 🔄
 
 ---
 
