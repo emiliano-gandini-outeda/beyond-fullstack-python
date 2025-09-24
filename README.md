@@ -88,7 +88,7 @@ This repository is split into **three major parts**:
 1. **🧠 General CS**: core computer science knowledge every developer needs (Linux, networks, algorithms).
 2. **🌐 Web Dev**: how to build and ship websites and web apps (HTML, CSS, Django, FastAPI, databases).
 3. **🐍 Python Dev**: how to automate, script, and analyze with Python (pandas, scripting, data science).
-4. **⚙️ DevOps**:  CI/CD, containerized deployments (Docker / Compose / K8s), infra-as-code (Terraform/Pulumi), configuration management (Ansible), monitoring (Prometheus/Grafana), logging (ELK), security and production hardening.
+4. **⚙️ DevOps**:  CI/CD, containerized deployments, infra-as-code, configuration management, monitoring, logging, security and production hardening.
 
 ---
 
@@ -672,9 +672,9 @@ Prebuilt small apps for learners.
 
 What to know: semantic HTML, forms, accessibility (a11y), responsive design (media queries), progressive enhancement (start with server-rendered HTML). Start here before CSS frameworks.
 
-* 📖 HTML/CSS tutorials and semantics (MDN learning): [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction\_to\_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). ([MDN Web Docs][1])
-* 🎯 CSS basics & responsive design (MDN): [https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) and [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout/Responsive\_Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design). ([MDN Web Docs][2])
-* ♿ Accessibility fundamentals (WCAG quick intro): [https://www.w3.org/WAI/fundamentals/accessibility-intro/](https://www.w3.org/WAI/fundamentals/accessibility-intro/) (read while building forms/components). *(searchable reference)*
+* 📖 HTML/CSS tutorials and semantics (MDN learning): [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction\_to\_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML).
+* 🎯 CSS basics & responsive design (MDN): [https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) and [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout/Responsive\_Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design).
+* ♿ Accessibility fundamentals (WCAG quick intro): [https://www.w3.org/WAI/fundamentals/accessibility-intro/](https://www.w3.org/WAI/fundamentals/accessibility-intro/) (read while building forms/components).
 
 ---
 
@@ -682,9 +682,9 @@ What to know: semantic HTML, forms, accessibility (a11y), responsive design (med
 
 Why: fast UI composition with small utilities, great for backend-rendered apps + modern builds. Learn the utility mindset (mobile-first breakpoints, utility variants).
 
-* 📚 Official Tailwind docs (getting started & utilities). [https://tailwindcss.com/docs](https://tailwindcss.com/docs). ([Tailwind CSS][3])
-* ⚙️ Tailwind + Vite / build integration (recommended dev setup): [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation). ([Tailwind CSS][4])
-* 💡 Practical examples / component patterns (examples & community tutorials). [https://alpinetoolbox.com/examples/](https://alpinetoolbox.com/examples/) (has Alpine+Tailwind examples). ([Alpine Toolbox][5])
+* 📚 Official Tailwind docs (getting started & utilities). [https://tailwindcss.com/docs](https://tailwindcss.com/docs). 
+* ⚙️ Tailwind + Vite / build integration (recommended dev setup): [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation).
+* 💡 Practical examples / component patterns (examples & community tutorials). [https://alpinetoolbox.com/examples/](https://alpinetoolbox.com/examples/) (has Alpine+Tailwind examples).
 
 ---
 
@@ -692,9 +692,9 @@ Why: fast UI composition with small utilities, great for backend-rendered apps +
 
 If you want fast, tiny frontends without a full SPA: combine Tailwind + Alpine for local interactivity and HTMX for server-driven exchanges (ajax in HTML attributes). They pair great with Django templates or Jinja.
 
-* 🏔️ Alpine.js docs (reactivity in markup): [https://alpinejs.dev/](https://alpinejs.dev/). ([Alpine.js][6])
-* 🔄 HTMX docs (ajax & server updates via HTML attributes): [https://htmx.org/docs/](https://htmx.org/docs/) and reference. ([htmx][7])
-* 🤝 HTMX + Alpine comparison & pairing (practical article): [https://www.infoworld.com/article/3856520/htmx-and-alpine-js-how-to-combine-two-great-lean-front-ends.html](https://www.infoworld.com/article/3856520/htmx-and-alpine-js-how-to-combine-two-great-lean-front-ends.html). ([InfoWorld][8])
+* 🏔️ Alpine.js docs (reactivity in markup): [https://alpinejs.dev/](https://alpinejs.dev/).
+* 🔄 HTMX docs (ajax & server updates via HTML attributes): [https://htmx.org/docs/](https://htmx.org/docs/) and reference.
+* 🤝 HTMX + Alpine comparison & pairing (practical article): [https://www.infoworld.com/article/3856520/htmx-and-alpine-js-how-to-combine-two-great-lean-front-ends.html](https://www.infoworld.com/article/3856520/htmx-and-alpine-js-how-to-combine-two-great-lean-front-ends.html).
 
 ---
 
@@ -702,8 +702,8 @@ If you want fast, tiny frontends without a full SPA: combine Tailwind + Alpine f
 
 What to learn: npm (or pnpm), Vite as dev server/bundler, PostCSS for Tailwind, and a lightweight dev pipeline (no heavy CRA if you don't need it).
 
-* ⚡ Vite + Tailwind quickstarts & docs: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation) (Vite examples included). ([Tailwind CSS][4])
-* 📦 General npm/pnpm docs (use what you prefer) — npm docs: [https://docs.npmjs.com/](https://docs.npmjs.com/). *(searchable)*
+* ⚡ Vite + Tailwind quickstarts & docs: [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation) (Vite examples included).
+* 📦 General npm/pnpm docs (use what you prefer) — npm docs: [https://docs.npmjs.com/](https://docs.npmjs.com/).
 
 ---
 
@@ -711,8 +711,8 @@ What to learn: npm (or pnpm), Vite as dev server/bundler, PostCSS for Tailwind, 
 
 Automated browser tests detect regressions. Use Playwright or Cypress. Playwright has first-class Python support if you prefer Python in test suites.
 
-* 🎭 Playwright Python docs (API & E2E): [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro). ([Playwright][9])
-* ⚡ Cypress docs (E2E, rich ecosystem): [https://docs.cypress.io/getting-started](https://docs.cypress.io/getting-started). ([Cypress Documentation][10])
+* 🎭 Playwright Python docs (API & E2E): [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro).
+* ⚡ Cypress docs (E2E, rich ecosystem): [https://docs.cypress.io/getting-started](https://docs.cypress.io/getting-started).
 
 ---
 
@@ -720,8 +720,8 @@ Automated browser tests detect regressions. Use Playwright or Cypress. Playwrigh
 
 Know HTTP methods, headers, status codes, idempotency, content negotiation, and when to choose REST vs GraphQL. For simple CRUD/CRUD+search REST works fine; use GraphQL when you need flexible client queries and single endpoint with typed schema.
 
-* 🌍 HTTP basics (MDN) — request/response model: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview). ([FastAPI][11])
-* 🔄 REST vs GraphQL explainer: HowToGraphQL & AWS comparison articles for pros/cons. [https://howtographql.com/basics/1-graphql-is-the-better-rest/](https://howtographql.com/basics/1-graphql-is-the-better-rest/) and [https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/](https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/). ([How to GraphQL][12])
+* 🌍 HTTP basics (MDN) — request/response model: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).
+* 🔄 REST vs GraphQL explainer: HowToGraphQL & AWS comparison articles for pros/cons. [https://howtographql.com/basics/1-graphql-is-the-better-rest/](https://howtographql.com/basics/1-graphql-is-the-better-rest/) and [https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/](https://aws.amazon.com/compare/the-difference-between-graphql-and-rest/).
 
 ---
 
@@ -729,22 +729,21 @@ Know HTTP methods, headers, status codes, idempotency, content negotiation, and 
 
 **Django (full-featured, opinionated, batteries included)** — templates, ORM, admin, auth out of the box. Best for server-rendered apps and monoliths.
 
-* 🎸 Django official getting started & tutorial: [https://docs.djangoproject.com/en/5.2/intro/](https://docs.djangoproject.com/en/5.2/intro/) and [https://www.djangoproject.com/start/](https://www.djangoproject.com/start/). ([Django Project][13])
+* 🎸 Django official getting started & tutorial: [https://docs.djangoproject.com/en/5.2/intro/](https://docs.djangoproject.com/en/5.2/intro/) and [https://www.djangoproject.com/start/](https://www.djangoproject.com/start/).
 
 **FastAPI (modern, async-first, excellent for APIs)** — very fast, automatic OpenAPI docs, pydantic models (now pydantic v2 or similar), great for microservices and API-first designs.
 
-* ⚡ FastAPI tutorial & guide: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/). ([FastAPI][14])
+* ⚡ FastAPI tutorial & guide: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/). 
 
-**ASGI vs WSGI** — FastAPI uses ASGI (async), Django historically WSGI but supports ASGI for async features — know the difference for deployment. (See FastAPI/Django docs for deployment notes.) ([FastAPI][15])
-
+**ASGI vs WSGI** — FastAPI uses ASGI (async), Django historically WSGI but supports ASGI for async features — know the difference for deployment. (See FastAPI/Django docs for deployment notes.)
 ---
 
 ## 8) 🗃️ Databases, ORM & migrations 💾
 
 **PostgreSQL** is the recommended relational DB for production (features, reliability). Use Django ORM for Django projects; for FastAPI you'll often use SQLAlchemy (sync or async), tortoise/orm, or psycopg/psycopg3 for raw access. Use alembic for migrations with SQLAlchemy, and Django has built-in migrations.
 
-* 🐘 PostgreSQL docs & tutorials: [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/) and beginner guides. ([PostgreSQL][16])
-* 🐍 Psycopg (modern Python adapter, async-ready): [https://www.psycopg.org/psycopg3/docs/](https://www.psycopg.org/psycopg3/docs/). ([Psycopg][17])
+* 🐘 PostgreSQL docs & tutorials: [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/) and beginner guides.
+* 🐍 Psycopg (modern Python adapter, async-ready): [https://www.psycopg.org/psycopg3/docs/](https://www.psycopg.org/psycopg3/docs/).
 * 🔄 Migrations & SQLAlchemy/alembic (search alembic docs) and Django migrations (docs). *(See Django & SQLAlchemy docs above.)*
 
 **Caching / ephemeral stores:** Redis for caching, sessions, rate-limiting — docs & quickstart: [https://redis.io/](https://redis.io/). 🗃️
@@ -755,7 +754,7 @@ Know HTTP methods, headers, status codes, idempotency, content negotiation, and 
 
 **WebSockets / Channels:** FastAPI has built-in WebSocket support; Django uses Django Channels for real-time features.
 
-* 🔌 FastAPI WebSocket docs/examples: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/). ([FastAPI][11])
+* 🔌 FastAPI WebSocket docs/examples: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/).
 * 📡 Django Channels docs (real-time & async support): [https://channels.readthedocs.io/](https://channels.readthedocs.io/) (searchable).
 
 **Background tasks / queues:** Celery (with Redis/RabbitMQ broker) or RQ for simpler queues; use them for long-running jobs (exports, email, image processing).
@@ -768,9 +767,9 @@ Know HTTP methods, headers, status codes, idempotency, content negotiation, and 
 
 Use Django allauth for full account/social flows in Django. For APIs, OAuth2 + JWT is a common pattern (FastAPI docs include secure patterns). Use PyJWT for handling tokens or delegated Auth0/Okta when you need SSO.
 
-* 👥 django-allauth docs & quickstart: [https://docs.allauth.org/](https://docs.allauth.org/) and quickstart guides. ([Allauth Documentation][18])
-* 🔑 FastAPI OAuth2 + JWT examples: [https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/) and other security guides. ([FastAPI][19])
-* 🪙 PyJWT docs (token handling): [https://pyjwt.readthedocs.io/](https://pyjwt.readthedocs.io/). ([PyJWT][20])
+* 👥 django-allauth docs & quickstart: [https://docs.allauth.org/](https://docs.allauth.org/) and quickstart guides.
+* 🔑 FastAPI OAuth2 + JWT examples: [https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/) and other security guides.
+* 🪙 PyJWT docs (token handling): [https://pyjwt.readthedocs.io/](https://pyjwt.readthedocs.io/).
 
 ---
 
@@ -778,8 +777,8 @@ Use Django allauth for full account/social flows in Django. For APIs, OAuth2 + J
 
 Containerize for parity with prod. Compose is the easiest multi-service local setup (web app + db + redis). For local HTTPS testing use `mkcert` to create trusted dev certificates. Use reverse proxies (Nginx/Traefik) locally if you want to mirror prod.
 
-* 🐳 Docker & Compose get-started: [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/) and Compose docs. ([htmx][21])
-* 🔒 mkcert for locally trusted HTTPS (creates local CA and certs): [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) and mkcert tutorials. ([GitHub][22])
+* 🐳 Docker & Compose get-started: [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/) and Compose docs.
+* 🔒 mkcert for locally trusted HTTPS (creates local CA and certs): [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) and mkcert tutorials.
 
 ---
 
@@ -787,31 +786,31 @@ Containerize for parity with prod. Compose is the easiest multi-service local se
 
 **Servers:** For FastAPI, run Uvicorn (ASGI) — often behind Gunicorn as a *process manager* using `uvicorn.workers.UvicornWorker` in production. For Django use Gunicorn (WSGI) with Nginx in front.
 
-* 🦄 Uvicorn/Gunicorn deployment guide (official & community): [https://uvicorn.org/deployment/](https://uvicorn.org/deployment/) and Gunicorn docs. ([Uvicorn][23])
-* 🌊 DigitalOcean/Nginx/Gunicorn Django tutorial (worked example): [https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu). ([DigitalOcean][24])
+* 🦄 Uvicorn/Gunicorn deployment guide (official & community): [https://uvicorn.org/deployment/](https://uvicorn.org/deployment/) and Gunicorn docs.
+* 🌊 DigitalOcean/Nginx/Gunicorn Django tutorial (worked example): [https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu).
 
 **Reverse proxies & ingress:** Nginx (traditional), Traefik (dynamic config, Docker-friendly). Use them to terminate TLS and route to containers. (See Nginx docs and Traefik docs — search).
 **Platforms:** easy deployment options: Render, Fly.io, and Vercel (for serverless/backends or frontend hosting).
 
-* 🎨 Render docs (web services quickstart): [https://render.com/docs/web-services](https://render.com/docs/web-services). ([Render][25])
-* ✈️ Fly.io Python guides (FastAPI/Django): [https://fly.io/docs/python/](https://fly.io/docs/python/) and tutorials. ([Fly][26])
-* ▲ Vercel backend guide (serverless APIs): [https://vercel.com/guides/hosting-backend-apis](https://vercel.com/guides/hosting-backend-apis). ([Vercel][27])
+* 🎨 Render docs (web services quickstart): [https://render.com/docs/web-services](https://render.com/docs/web-services).
+* ✈️ Fly.io Python guides (FastAPI/Django): [https://fly.io/docs/python/](https://fly.io/docs/python/) and tutorials.
+* ▲ Vercel backend guide (serverless APIs): [https://vercel.com/guides/hosting-backend-apis](https://vercel.com/guides/hosting-backend-apis).
 
-**CI/CD:** Use GitHub Actions to run tests, linters, and deploy Docker images — GitHub Actions docs & official workflows (search GitHub Actions docs). ([FastAPI][28])
+**CI/CD:** Use GitHub Actions to run tests, linters, and deploy Docker images — GitHub Actions docs & official workflows (search GitHub Actions docs).
 
 ---
 
 ## 13) 📊 Observability, logging, metrics & security essentials 🔍
 
 * 📝 Logging & structured logs (Python `logging`, prefer JSON logs for aggregators).
-* 📈 Metrics: Prometheus + Grafana for metrics dashboards; Sentry for error tracking. Prometheus intro: [https://prometheus.io/docs/introduction/overview/](https://prometheus.io/docs/introduction/overview/) and Grafana docs. ([htmx][29])
+* 📈 Metrics: Prometheus + Grafana for metrics dashboards; Sentry for error tracking. Prometheus intro: [https://prometheus.io/docs/introduction/overview/](https://prometheus.io/docs/introduction/overview/) and Grafana docs.
 * 🔒 TLS & certs: Let's Encrypt + Certbot for automatic certs in prod; learn cert management. [https://letsencrypt.org/how-it-works/](https://letsencrypt.org/how-it-works/) and Certbot docs.
 
 ---
 
 ## 14) ❓ Quick FAQ — GraphQL vs REST (short guidance) 🤔
 
-* Use **REST** for simple resource-based CRUD endpoints with straightforward caching & proxies. Use **GraphQL** when clients need very flexible queries and you want a typed contract and fewer round-trips; beware complexity (caching, N+1 problems). Read a balanced compare: [https://konghq.com/blog/graphql-vs-rest/](https://konghq.com/blog/graphql-vs-rest/) and [https://howtographql.com/](https://howtographql.com/). ([Kong Inc.][30])
+* Use **REST** for simple resource-based CRUD endpoints with straightforward caching & proxies. Use **GraphQL** when clients need very flexible queries and you want a typed contract and fewer round-trips; beware complexity (caching, N+1 problems). Read a balanced compare: [https://konghq.com/blog/graphql-vs-rest/](https://konghq.com/blog/graphql-vs-rest/) and [https://howtographql.com/](https://howtographql.com/).
 
 ---
 
@@ -824,47 +823,47 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 **Idea:** A tiny web UI that lists your local Docker Compose projects, shows container status, starts/stops stacks, tails logs, and can generate `mkcert` certs and host entries for each project — one place to manage local projects. Saves devs from juggling terminal windows.
 **Why helpful:** speeds onboarding, avoids manual `docker compose up` juggling, and makes local HTTPS trivial.
 **Minimal stack:** FastAPI backend (controls Docker via Docker SDK), HTMX + Tailwind UI for the frontend, optional WebSocket for live logs.
-**How-to links:** Docker SDK for Python (manage containers): [https://docs.docker.com/engine/api/sdk/python/](https://docs.docker.com/engine/api/sdk/python/) ; FastAPI WebSocket & process streaming: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; mkcert (local certs): [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert). ([Seenode][31])
+**How-to links:** Docker SDK for Python (manage containers): [https://docs.docker.com/engine/api/sdk/python/](https://docs.docker.com/engine/api/sdk/python/) ; FastAPI WebSocket & process streaming: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; mkcert (local certs): [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert).
 
 ### B) 📋 Clipboard History + Snippets local server (accessible from any device on LAN)
 
 **Idea:** A local web service that captures your clipboard (via a small Python daemon), stores snippets with tags and expiry, provides fast full-text search and insert (keyboard shortcuts or small client), and serves a web UI for browsing/snippets (with code highlight). Useful to transfer text between devices and store reusable snippets.
 **Minimal stack:** Python background daemon uses `pyperclip` or xclip/WinAPI; FastAPI for web UI + WebSocket for live clipboard updates; CodeMirror or highlight.js in the UI for snippet display. Optionally containerize and run as user service.
-**How-to links:** pyperclip (clipboard lib): [https://pyperclip.readthedocs.io/](https://pyperclip.readthedocs.io/) ; FastAPI websockets: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; CodeMirror editor for snippet UX: [https://codemirror.net/](https://codemirror.net/). ([Pyperclip][32])
+**How-to links:** pyperclip (clipboard lib): [https://pyperclip.readthedocs.io/](https://pyperclip.readthedocs.io/) ; FastAPI websockets: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; CodeMirror editor for snippet UX: [https://codemirror.net/](https://codemirror.net/).
 
 ### C) 📝 Project README / Dev-Env Generator (auto-create README + Makefile + docker-compose)
 
 **Idea:** Paste a repo skeleton (language, DB, uses Celery?, needs TLS?) and the service generates a ready-to-run `README.md`, `Makefile` with `make setup / make run / make test`, and `docker-compose.yml` tuned to the selection — saves setup time for boilerplate. Add a tiny web UI to customize.
 **Minimal stack:** FastAPI backend that uses Jinja templates to render files, Tailwind + Alpine frontend. Provide download as zip. Use cookiecutter patterns if you want template expansion.
-**How-to links:** Cookiecutter docs & patterns (optional): [https://cookiecutter.readthedocs.io/](https://cookiecutter.readthedocs.io/) ; Makefile tutorial: [https://makefiletutorial.com/](https://makefiletutorial.com/) ; Docker Compose docs (compose file examples): [https://docs.docker.com/compose/](https://docs.docker.com/compose/). ([Reddit][33])
+**How-to links:** Cookiecutter docs & patterns (optional): [https://cookiecutter.readthedocs.io/](https://cookiecutter.readthedocs.io/) ; Makefile tutorial: [https://makefiletutorial.com/](https://makefiletutorial.com/) ; Docker Compose docs (compose file examples): [https://docs.docker.com/compose/](https://docs.docker.com/compose/).
 
 ### D) 💾 Self-hosted Paste/Snippet Service with Expiry + Syntax Highlighting and Local OAuth
 
 **Idea:** Lightweight Pastebin clone but with short-lived pastes, per-paste passwords, syntax highlighting, paste previews, and client-side copy. Useful for sharing code snippets securely within teams or CI outputs.
 **Minimal stack:** FastAPI (APIs + OpenAPI), SQLite or Postgres for storage, CodeMirror / highlight.js for frontend code display, Django allauth or simple JWT for optional auth. Add rate-limiting with Redis.
-**How-to links:** FastAPI quickstart: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/) ; CodeMirror: [https://codemirror.net/](https://codemirror.net/) ; rate-limiting patterns (Redis). ([FastAPI][14])
+**How-to links:** FastAPI quickstart: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/) ; CodeMirror: [https://codemirror.net/](https://codemirror.net/) ; rate-limiting patterns (Redis).
 
 ### E) 🤖 Automated PR Backport Assistant (bot that opens backport branches + cherry-picks)
 
 **Idea:** GitHub Action + small web dashboard that watches PRs and, on demand, creates backport branches across maintained branches, runs tests, and opens PRs. Lowers release overhead for maintainers.
 **Minimal stack:** GitHub Actions + small FastAPI service (webhook endpoints) to manage backport tasks, uses GitHub REST API. Optional web UI for triggers and logs.
-**How-to links:** GitHub Actions docs (workflows & actions): [https://docs.github.com/en/actions](https://docs.github.com/en/actions) ; GitHub REST API docs. ([FastAPI][28])
+**How-to links:** GitHub Actions docs (workflows & actions): [https://docs.github.com/en/actions](https://docs.github.com/en/actions) ; GitHub REST API docs.
 
 ### F) 🩺 Local "Service Checker & Fixer" - one-click dev health fixes
 
 **Idea:** A local web page that runs a series of preconfigured health checks (DB reachable, migrations pending, envvars set, ports free), and provides one-click fixes (run migrations, restart service, apply seed data). Great for non-expert teammates.
 **Minimal stack:** Backend uses Python `subprocess`/Docker SDK to run commands, returns structured results; frontend uses HTMX for live step-by-step UI.
-**How-to links:** HTMX docs for progressive server actions: [https://htmx.org/docs/](https://htmx.org/docs/) ; Docker SDK for command control. ([htmx][7])
+**How-to links:** HTMX docs for progressive server actions: [https://htmx.org/docs/](https://htmx.org/docs/) ; Docker SDK for command control.
 
 ---
 
 ## 🎯 Final notes & recommended learning order (quick path) 🚀
 
-1. 📝 HTML/CSS basics + Tailwind quickstart (MDN + Tailwind). ([MDN Web Docs][1])
-2. ⚡ Add Alpine/HTMX for lightweight interactivity. ([Alpine.js][6])
-3. 🐍 Learn a Python framework: pick Django (if you want integrated admin + SSR) or FastAPI (if you want async APIs). Follow each official tutorial. ([Django Project][13])
-4. 🐳 Containerize with Docker + Compose and use mkcert for local HTTPS testing. ([htmx][21])
-5. 🚀 Deploy to a beginner-friendly host (Render / Fly) and learn Uvicorn/Gunicorn + Nginx basics. ([Render][25])
+1. 📝 HTML/CSS basics + Tailwind quickstart (MDN + Tailwind).
+2. ⚡ Add Alpine/HTMX for lightweight interactivity.
+3. 🐍 Learn a Python framework: pick Django (if you want integrated admin + SSR) or FastAPI (if you want async APIs). Follow each official tutorial.
+4. 🐳 Containerize with Docker + Compose and use mkcert for local HTTPS testing.
+5. 🚀 Deploy to a beginner-friendly host (Render / Fly) and learn Uvicorn/Gunicorn + Nginx basics.
 
 ---
 
@@ -888,7 +887,7 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 12. 🚀 Deployment & containerizing (Docker + Python patterns)
 13. 🔒 Security & secrets (envvars, .env, keyring patterns)
 14. 📚 Recommended books / tutorials
-15. 💡 **Projects — original, small QoL tools** (no todo apps)
+15. 💡 **Projects: original, small QoL tools** (no todo apps)
 
 ---
 
@@ -898,12 +897,12 @@ Short idea: use **virtual environments** for every project, use `pipx` for insta
 
 Links:
 
-* 🎵 Poetry (dependency management & packaging). ([Poetry][1])
-  [https://python-poetry.org/docs/](https://python-poetry.org/docs/) ([Poetry][1])
-* 📦 pipx — install Python CLI apps in isolated venvs. ([Pipx][2])
-  [https://pipx.pypa.io/](https://pipx.pypa.io/) ([Pipx][2])
-* 🐍 pip docs & best practice for installers / requirements. ([Pip][3])
-  [https://pip.pypa.io/](https://pip.pypa.io/) ([Pip][3])
+* 🎵 Poetry (dependency management & packaging).
+  [https://python-poetry.org/docs/](https://python-poetry.org/docs/)
+* 📦 pipx — install Python CLI apps in isolated venvs.
+  [https://pipx.pypa.io/](https://pipx.pypa.io/)
+* 🐍 pip docs & best practice for installers / requirements.
+  [https://pip.pypa.io/](https://pip.pypa.io/)
 
 Quick guidance: `python -m venv .venv && .venv/bin/pip install -U pip` → use Poetry when you need reproducible `pyproject.toml` + `poetry.lock`.
 
@@ -913,12 +912,12 @@ Quick guidance: `python -m venv .venv && .venv/bin/pip install -U pip` → use P
 
 These are the building blocks for reliable scripts.
 
-* 📁 `pathlib` — modern path handling (prefer over `os.path`). Docs + tutorial. ([Python documentation][4])
-  [https://docs.python.org/3/library/pathlib.html](https://docs.python.org/3/library/pathlib.html). ([Python documentation][4])
-* ⚙️ `subprocess` — spawn shell commands safely (avoid `os.system`). Use `subprocess.run`/`Popen`. ([Python documentation][5])
-  [https://docs.python.org/3/library/subprocess.html](https://docs.python.org/3/library/subprocess.html). ([Python documentation][5])
-* 🏷️ `typing` / `dataclasses` — incremental type hints + convenient immutable data containers. ([Python documentation][6])
-  [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html). ([Python documentation][6])
+* 📁 `pathlib` — modern path handling (prefer over `os.path`). Docs + tutorial.
+  [https://docs.python.org/3/library/pathlib.html](https://docs.python.org/3/library/pathlib.html).
+* ⚙️ `subprocess` — spawn shell commands safely (avoid `os.system`). Use `subprocess.run`/`Popen`.
+  [https://docs.python.org/3/library/subprocess.html](https://docs.python.org/3/library/subprocess.html).
+* 🏷️ `typing` / `dataclasses` — incremental type hints + convenient immutable data containers.
+  [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html).
 * 📝 `logging` — structured logging; later layer with JSON loggers / centralized collectors.
 
 Use `pathlib.Path` for file glue, `subprocess` for invoking system tools (tar, docker, git), and types + dataclasses to keep code maintainable.
@@ -931,8 +930,8 @@ What to learn: idempotent scripts, environment checks, exit codes, `set -euo pip
 
 Resources & examples:
 
-* 📚 *Automate the Boring Stuff* — practical automation projects and file/regex/Excel/email examples. ([Automate the Boring Stuff][7])
-  [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/) ([Automate the Boring Stuff][7])
+* 📚 *Automate the Boring Stuff* — practical automation projects and file/regex/Excel/email examples.
+  [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
 * ⏰ Cron vs systemd timers (use systemd timers for modern service scheduling; cron for simple schedules). See distro docs / systemd docs (referenced in Part I). (See Part I links for systemd/crons).
 * 🔧 Pattern: small shell `.sh` that bootstraps venv and then runs `python -m mytool task` — or use `pyproject` entry points.
 
@@ -946,12 +945,12 @@ Start with `argparse` for tiny scripts; for serious CLI apps use **Click** or **
 
 Links:
 
-* 🏷️ `argparse` official docs + Real Python tutorial. ([Python documentation][8])
-  [https://docs.python.org/3/library/argparse.html](https://docs.python.org/3/library/argparse.html). ([Python documentation][8])
-* 🎯 Click — mature CLI framework (Pallets). ([Click Documentation][9])
-  [https://click.palletsprojects.com/](https://click.palletsprojects.com/) ([Click Documentation][9])
-* ⚡ Typer — easy modern CLIs using type hints (great for developer UX). ([Typer][10])
-  [https://typer.tiangolo.com/](https://typer.tiangolo.com/) ([Typer][10])
+* 🏷️ `argparse` official docs + Real Python tutorial.
+  [https://docs.python.org/3/library/argparse.html](https://docs.python.org/3/library/argparse.html).
+* 🎯 Click — mature CLI framework (Pallets).
+  [https://click.palletsprojects.com/](https://click.palletsprojects.com/)
+* ⚡ Typer — easy modern CLIs using type hints (great for developer UX).
+  [https://typer.tiangolo.com/](https://typer.tiangolo.com/)
 
 Pattern: build a `cli` package with subcommands, expose an entry point in `pyproject.toml`, and allow `--help` & good exit codes.
 
@@ -963,12 +962,12 @@ For interacting with the web, scraping APIs, or building simple HTTP clients.
 
 Links:
 
-* 📡 Requests — the classic synchronous HTTP lib. ([Requests][11])
-  [https://requests.readthedocs.io/](https://requests.readthedocs.io/) ([Requests][11])
-* ⚡ HTTPX — sync **and** async HTTP client (HTTP/2 support). ([HTTPX][12])
-  [https://www.python-httpx.org/](https://www.python-httpx.org/) ([HTTPX][12])
-* 🔄 Aiohttp — async client & server for asyncio. Use when building async apps. ([AIOHTTP Documentation][13])
-  [https://docs.aiohttp.org/](https://docs.aiohttp.org/) ([AIOHTTP Documentation][13])
+* 📡 Requests — the classic synchronous HTTP lib.
+  [https://requests.readthedocs.io/](https://requests.readthedocs.io/)
+* ⚡ HTTPX — sync **and** async HTTP client (HTTP/2 support).
+  [https://www.python-httpx.org/](https://www.python-httpx.org/)
+* 🔄 Aiohttp — async client & server for asyncio. Use when building async apps.
+  [https://docs.aiohttp.org/](https://docs.aiohttp.org/)
 
 Practice: start with `requests` for scripts; move to `httpx` or `aiohttp` when you need concurrency.
 
@@ -980,9 +979,9 @@ When I/O dominates (HTTP, DB), use async; for CPU-bound tasks use `multiprocessi
 
 Links:
 
-* 🔄 Official `asyncio` docs (howto & conceptual overview). ([Python documentation][14])
-  [https://docs.python.org/3/library/asyncio.html](https://docs.python.org/3/library/asyncio.html). ([Python documentation][14])
-* 🐍 RealPython async walkthrough (hands-on). ([Real Python][15])
+* 🔄 Official `asyncio` docs (howto & conceptual overview).
+  [https://docs.python.org/3/library/asyncio.html](https://docs.python.org/3/library/asyncio.html).
+* 🐍 RealPython async walkthrough (hands-on).
 
 Patterns: use `asyncio.gather` for concurrent I/O, prefer high-level libraries (httpx/aiohttp, async DB drivers) and beware blocking libraries in the event loop.
 
@@ -994,14 +993,14 @@ If you want to analyze logs, CSVs, or build small ETL scripts, pandas is central
 
 Links:
 
-* 🐼 pandas — official "10 minutes" guide + getting started. ([Pandas][16])
-  [https://pandas.pydata.org/docs/getting\_started/intro\_tutorials/](https://pandas.pydata.org/docs/getting_started/intro_tutorials/) ([Pandas][17])
-* 🔢 NumPy — arrays & performance foundations. ([NumPy][18])
-  [https://numpy.org/doc/stable/](https://numpy.org/doc/stable/) ([NumPy][18])
-* 📊 Matplotlib tutorials + pyplot reference (plots, histograms). ([Matplotlib][19])
-  [https://matplotlib.org/stable/tutorials/pyplot.html](https://matplotlib.org/stable/tutorials/pyplot.html). ([Matplotlib][19])
-* 📓 Jupyter / JupyterLab — interactive exploration and reproducible notebooks. ([JupyterLab Documentation][20])
-  [https://jupyter.org/](https://jupyter.org/) and [https://jupyterlab.readthedocs.io/](https://jupyterlab.readthedocs.io/). ([Jupyter][21])
+* 🐼 pandas — official "10 minutes" guide + getting started.
+  [https://pandas.pydata.org/docs/getting\_started/intro\_tutorials/](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)
+* 🔢 NumPy — arrays & performance foundations.
+  [https://numpy.org/doc/stable/](https://numpy.org/doc/stable/)
+* 📊 Matplotlib tutorials + pyplot reference (plots, histograms).
+  [https://matplotlib.org/stable/tutorials/pyplot.html](https://matplotlib.org/stable/tutorials/pyplot.html).
+* 📓 Jupyter / JupyterLab — interactive exploration and reproducible notebooks.
+  [https://jupyter.org/](https://jupyter.org/) and [https://jupyterlab.readthedocs.io/](https://jupyterlab.readthedocs.io/).
 
 Use pandas for ETL, exploratory analysis, log aggregation and small reporting. For production pipelines, prefer streaming frameworks or batch jobs with checkpoints.
 
@@ -1013,10 +1012,10 @@ Tests make automation maintainable.
 
 Links:
 
-* ✅ pytest official docs (fixtures, parametrize, plugins). ([pytest][22])
-  [https://docs.pytest.org/en/stable/getting-started.html](https://docs.pytest.org/en/stable/getting-started.html). ([pytest][22])
-* 🎲 Hypothesis — property-based testing to find edge cases automatically. ([Hypothesis Documentation][23])
-  [https://hypothesis.readthedocs.io/](https://hypothesis.readthedocs.io/) ([Hypothesis Documentation][23])
+* ✅ pytest official docs (fixtures, parametrize, plugins).
+  [https://docs.pytest.org/en/stable/getting-started.html](https://docs.pytest.org/en/stable/getting-started.html).
+* 🎲 Hypothesis — property-based testing to find edge cases automatically.
+  [https://hypothesis.readthedocs.io/](https://hypothesis.readthedocs.io/)
 
 Practice: write unit tests for pure functions and integration tests for scripts (use temp dirs and monkeypatch fixtures), run tests in CI (GitHub Actions).
 
@@ -1028,10 +1027,10 @@ Make code consistent and less review-friction.
 
 Links:
 
-* ⚫ Black (formatter). ([Black][24])
-  [https://black.readthedocs.io/](https://black.readthedocs.io/) ([Black][24])
-* 🔍 mypy (static type checking) — adopt type hints gradually. ([Mypy][25])
-  [https://mypy.readthedocs.io/](https://mypy.readthedocs.io/) ([Mypy][25])
+* ⚫ Black (formatter).
+  [https://black.readthedocs.io/](https://black.readthedocs.io/)
+* 🔍 mypy (static type checking) — adopt type hints gradually.
+  [https://mypy.readthedocs.io/](https://mypy.readthedocs.io/)
 
 Add pre-commit hooks so formatting / type checks run automatically before commits.
 
@@ -1043,12 +1042,12 @@ Essentials to diagnose issues in scripts and services.
 
 Links:
 
-* 🐞 `pdb` — standard lib debugger; `ipdb` for a friendlier REPL. ([Python documentation][26])
-  [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html). ([Python documentation][26])
-* 📊 `cProfile` — deterministic profiler for hotspots. ([Python documentation][27])
-  [https://docs.python.org/3/library/profile.html](https://docs.python.org/3/library/profile.html). ([Python documentation][27])
-* 🔥 `py-spy` — low-overhead sampling profiler (works in prod, flamegraphs). ([GitHub][28])
-  [https://github.com/benfred/py-spy](https://github.com/benfred/py-spy). ([GitHub][28])
+* 🐞 `pdb` — standard lib debugger; `ipdb` for a friendlier REPL.
+  [https://docs.python.org/3/library/pdb.html](https://docs.python.org/3/library/pdb.html).
+* 📊 `cProfile` — deterministic profiler for hotspots.
+  [https://docs.python.org/3/library/profile.html](https://docs.python.org/3/library/profile.html).
+* 🔥 `py-spy` — low-overhead sampling profiler (works in prod, flamegraphs).
+  [https://github.com/benfred/py-spy](https://github.com/benfred/py-spy).
 
 Workflow: reproduce locally → instrument with `cProfile` → visualize; if in production, attach `py-spy` (no restart) to inspect.
 
@@ -1060,9 +1059,9 @@ Make your script installable via `pip` / `pipx` and publishable to PyPI.
 
 Links:
 
-* 📦 Packaging/PEP guides & tool recommendations (PyPA). ([Python Packaging][29])
-  [https://packaging.python.org/](https://packaging.python.org/) ([Python Packaging][29])
-* 🎵 Poetry already covered (build wheels, publish). ([Poetry][1])
+* 📦 Packaging/PEP guides & tool recommendations (PyPA).
+  [https://packaging.python.org/](https://packaging.python.org/)
+* 🎵 Poetry already covered (build wheels, publish).
 
 Best practice: add `pyproject.toml`, define console entry points, test builds with `pipx` or local `pip install --editable .`.
 
@@ -1074,7 +1073,7 @@ Dockerize scripts when environment parity matters. Keep images small (use slim b
 
 Links:
 
-* 🐳 Docker docs (Python + Docker patterns referenced in Part II). (See Part II links — Docker get-started). ([Python documentation][26])
+* 🐳 Docker docs (Python + Docker patterns referenced in Part II). (See Part II links — Docker get-started).
 
 Tip: For CLI tools, consider shipping single-file executables with `shiv`/`pyinstaller` or let users `pipx install` the package.
 
@@ -1095,9 +1094,9 @@ Useful tools/patterns:
 
 ## 14) 📚 Recommended books & tutorials 🎓
 
-* 📚 *Automate the Boring Stuff with Python* (practical automation). ([Automate the Boring Stuff][7])
-  [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/) ([Automate the Boring Stuff][7])
-* 📖 Official docs for pandas / NumPy / pytest / asyncio are your canonical references. ([Pandas][17])
+* 📚 *Automate the Boring Stuff with Python* (practical automation).
+  [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
+* 📖 Official docs for pandas / NumPy / pytest / asyncio are your canonical references.
 
 ---
 
@@ -1113,7 +1112,7 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 **What it does:** runs dependency updates in isolated ephemeral virtualenvs/containers, installs the new versions, runs a lightweight smoke test suite (configurable commands), and reports which package(s) likely caused failures.Optionally create PRs with safe bump suggestions.
 **Why useful:** saves an hour of manual dependency triage every week.
 **Minimal stack & libraries:** Poetry (or pip + constraints files) to generate isolated envs, `subprocess` + Docker SDK or `pipx` for isolated installs, `pytest` for smoke tests, GitHub Actions for automation.
-**Links:** Poetry docs (manage deps). ([Poetry][1]) — Pytest docs (run tests). ([pytest][22]) — Docker SDK for Python for containerized sandboxes. ([Pip][30])
+**Links:** Poetry docs (manage deps) — Pytest docs (run tests) — Docker SDK for Python for containerized sandboxes.
 
 ---
 
@@ -1123,7 +1122,7 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 **What it does:** A CLI + small HTTP service accessible over LAN that stores parametrized snippets (templates) and inserts them into files using contextual placeholders (filename, author, date, package name). Can be invoked from editor keybind or `pre-commit` hooks. ⚡  
 **Why useful:** saves repeated copy/paste and enforces consistent project boilerplate. 💪  
 **Minimal stack & libs:** Typer for CLI, Jinja2 for templating, filesystem ops via `pathlib`, optional tiny FastAPI server for networked snippet management. Use `pipx` for deployment on dev machines. 🛠️  
-**Links:** Typer docs. ([Typer][10]) — Jinja2 docs (templating; search "jinja2 docs"). — pathlib/subprocess for file ops. ([Python documentation][4])
+**Links:** Typer docs — Jinja2 docs (templating; search "jinja2 docs") — pathlib/subprocess for file ops.
 
 ---
 
@@ -1142,17 +1141,17 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 **Problem it solves:** Local dev with HTTPS + custom hostnames is fiddly (mkcert + /etc/hosts + docker networks). 🤯  
 **What it does:** GUI + CLI that finds local projects (docker-compose / local ports), generates mkcert certs for chosen hostnames, writes to a dev hosts file (or manages DNS via dnsmasq), and configures a local reverse proxy (traefik/nginx) to serve TLS—one button to enable HTTPS for an app. Optionally roll certs into containers automatically. 🎯  
 **Why useful:** makes local HTTPS painless for frontend engineers and mobile debugging. 📱  
-**Stack & libs:** FastAPI backend, Docker SDK to discover stacks, mkcert for cert generation, HTMX/Alpine + Tailwind for UI. mkcert docs. ([Matplotlib][31])
+**Stack & libs:** FastAPI backend, Docker SDK to discover stacks, mkcert for cert generation, HTMX/Alpine + Tailwind for UI. mkcert docs.
 
 ---
 
 ### Project E — **Commit Message Linter & Augmentor** 📝✅
 
-**Problem it solves:** Poor commit messages and inconsistent changelogs. 😵  
+**Problem it solves:** Poor commit messages and inconsistent changelogs. 😵
 **What it does:** a git hook service that checks commit messages for format, suggests fixes (imperative mood, scope), offers automated conventional-changelog snippets, and can auto-generate a short PR description based on diff stats. Offers both CLI and GitHub Action integration. 🤖  
 **Why useful:** better history & changelog automation across teams. 👥  
 **Stack & libs:** GitPython or subprocess to call `git`, a small local CLI (Typer) and optional GitHub Action glue. Add `pre-commit` integration. 🔗  
-**Links:** pre-commit framework (search pre-commit), GitHub Actions (CI). ([Python documentation][5])
+**Links:** pre-commit framework (search pre-commit), GitHub Actions (CI).
 
 ---
 
@@ -1160,15 +1159,15 @@ No todo apps — these are hands-on, tiny tools that solve real small pain point
 
 **Problem it solves:** Extracting and cleaning named columns from messy log files (syslog, custom app logs) to CSV/Excel for quick analysis. 📈  
 **What it does:** A CLI that accepts log patterns, extracts fields with regex templates, normalizes timestamps/timezones, deduplicates, and writes clean CSV/Excel reports with basic summary stats and small plots. Saves time when you need ad-hoc analysis without building ETL. ⚡  
-**Stack & libs:** `pandas` for cleaning, `openpyxl` or `xlsxwriter` for Excel exports, `click/typer` CLI, and `matplotlib`/`seaborn` for quick charts. pandas docs. ([Pandas][17])
+**Stack & libs:** `pandas` for cleaning, `openpyxl` or `xlsxwriter` for Excel exports, `click/typer` CLI, and `matplotlib`/`seaborn` for quick charts. pandas docs.
 
 ---
 
 ## Final practical tips 💡
 
-* Start small: write lots of single-purpose scripts and then generalize into proper CLI apps. Use tests from day one (pytest). ✅ ([pytest][22])
-* Use `pipx` to install your CLI tools during development so you test the "installed" UX. 📦 ([Pipx][2])
-* Automate dependency updates (Project A) early — it's a big maintenance win. Use lockfiles (poetry/pip-tools) for reproducibility. 🔄 ([Poetry][1])
+* Start small: write lots of single-purpose scripts and then generalize into proper CLI apps. Use tests from day one (pytest). ✅
+* Use `pipx` to install your CLI tools during development so you test the "installed" UX. 📦
+* Automate dependency updates (Project A) early — it's a big maintenance win. Use lockfiles (poetry/pip-tools) for reproducibility. 🔄
 
 ---
 
