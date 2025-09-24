@@ -821,38 +821,51 @@ Each idea includes scope, suggested minimal tech stack, and links to docs/exampl
 ### A) 🐳 Local Dev Environment Manager (GUI for your Docker dev stacks)
 
 **Idea:** A tiny web UI that lists your local Docker Compose projects, shows container status, starts/stops stacks, tails logs, and can generate `mkcert` certs and host entries for each project — one place to manage local projects. Saves devs from juggling terminal windows.
+
 **Why helpful:** speeds onboarding, avoids manual `docker compose up` juggling, and makes local HTTPS trivial.
+
 **Minimal stack:** FastAPI backend (controls Docker via Docker SDK), HTMX + Tailwind UI for the frontend, optional WebSocket for live logs.
+
 **How-to links:** Docker SDK for Python (manage containers): [https://docs.docker.com/engine/api/sdk/python/](https://docs.docker.com/engine/api/sdk/python/) ; FastAPI WebSocket & process streaming: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; mkcert (local certs): [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert).
 
 ### B) 📋 Clipboard History + Snippets local server (accessible from any device on LAN)
 
 **Idea:** A local web service that captures your clipboard (via a small Python daemon), stores snippets with tags and expiry, provides fast full-text search and insert (keyboard shortcuts or small client), and serves a web UI for browsing/snippets (with code highlight). Useful to transfer text between devices and store reusable snippets.
+
 **Minimal stack:** Python background daemon uses `pyperclip` or xclip/WinAPI; FastAPI for web UI + WebSocket for live clipboard updates; CodeMirror or highlight.js in the UI for snippet display. Optionally containerize and run as user service.
+
 **How-to links:** pyperclip (clipboard lib): [https://pyperclip.readthedocs.io/](https://pyperclip.readthedocs.io/) ; FastAPI websockets: [https://fastapi.tiangolo.com/advanced/websockets/](https://fastapi.tiangolo.com/advanced/websockets/) ; CodeMirror editor for snippet UX: [https://codemirror.net/](https://codemirror.net/).
 
 ### C) 📝 Project README / Dev-Env Generator (auto-create README + Makefile + docker-compose)
 
 **Idea:** Paste a repo skeleton (language, DB, uses Celery?, needs TLS?) and the service generates a ready-to-run `README.md`, `Makefile` with `make setup / make run / make test`, and `docker-compose.yml` tuned to the selection — saves setup time for boilerplate. Add a tiny web UI to customize.
+
 **Minimal stack:** FastAPI backend that uses Jinja templates to render files, Tailwind + Alpine frontend. Provide download as zip. Use cookiecutter patterns if you want template expansion.
+
 **How-to links:** Cookiecutter docs & patterns (optional): [https://cookiecutter.readthedocs.io/](https://cookiecutter.readthedocs.io/) ; Makefile tutorial: [https://makefiletutorial.com/](https://makefiletutorial.com/) ; Docker Compose docs (compose file examples): [https://docs.docker.com/compose/](https://docs.docker.com/compose/).
 
 ### D) 💾 Self-hosted Paste/Snippet Service with Expiry + Syntax Highlighting and Local OAuth
 
 **Idea:** Lightweight Pastebin clone but with short-lived pastes, per-paste passwords, syntax highlighting, paste previews, and client-side copy. Useful for sharing code snippets securely within teams or CI outputs.
+
 **Minimal stack:** FastAPI (APIs + OpenAPI), SQLite or Postgres for storage, CodeMirror / highlight.js for frontend code display, Django allauth or simple JWT for optional auth. Add rate-limiting with Redis.
+
 **How-to links:** FastAPI quickstart: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/) ; CodeMirror: [https://codemirror.net/](https://codemirror.net/) ; rate-limiting patterns (Redis).
 
 ### E) 🤖 Automated PR Backport Assistant (bot that opens backport branches + cherry-picks)
 
 **Idea:** GitHub Action + small web dashboard that watches PRs and, on demand, creates backport branches across maintained branches, runs tests, and opens PRs. Lowers release overhead for maintainers.
+
 **Minimal stack:** GitHub Actions + small FastAPI service (webhook endpoints) to manage backport tasks, uses GitHub REST API. Optional web UI for triggers and logs.
+
 **How-to links:** GitHub Actions docs (workflows & actions): [https://docs.github.com/en/actions](https://docs.github.com/en/actions) ; GitHub REST API docs.
 
 ### F) 🩺 Local "Service Checker & Fixer" - one-click dev health fixes
 
 **Idea:** A local web page that runs a series of preconfigured health checks (DB reachable, migrations pending, envvars set, ports free), and provides one-click fixes (run migrations, restart service, apply seed data). Great for non-expert teammates.
+
 **Minimal stack:** Backend uses Python `subprocess`/Docker SDK to run commands, returns structured results; frontend uses HTMX for live step-by-step UI.
+
 **How-to links:** HTMX docs for progressive server actions: [https://htmx.org/docs/](https://htmx.org/docs/) ; Docker SDK for command control.
 
 ---
