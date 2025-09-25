@@ -736,6 +736,7 @@ Know HTTP methods, headers, status codes, idempotency, content negotiation, and 
 * ⚡ FastAPI tutorial & guide: [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/). 
 
 **ASGI vs WSGI** : FastAPI uses ASGI (async), Django historically WSGI but supports ASGI for async features : know the difference for deployment. (See FastAPI/Django docs for deployment notes.)
+
 ---
 
 ## 8) 🗃️ Databases, ORM & migrations 💾
